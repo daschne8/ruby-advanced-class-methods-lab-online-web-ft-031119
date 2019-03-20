@@ -43,5 +43,5 @@ class Song
     song.name = filename[1].split(".mp3")[0]
   end
 end
-
-# binding.pry
+song = Song.new_from_filename("Thundercat - For Love I Come.mp3")
+binding.pry
