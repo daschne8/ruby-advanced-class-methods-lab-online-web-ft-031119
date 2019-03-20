@@ -41,7 +41,7 @@ class Song
     song.artist_name = filename[0]
     song.name = filename[1][0,-4]
     song = Song.new
-    song.name = 
+    song.name =
   end
 end
 
