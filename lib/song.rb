@@ -24,6 +24,5 @@ class Song
   end
   def find_by_name(name)
     self.all.find{|song| song.name == name}
-    return falsey
   end
 end
