@@ -6,7 +6,6 @@ class Song
     self.all << song
     song
   end
-  def
   def self.all
     @@all
   end
