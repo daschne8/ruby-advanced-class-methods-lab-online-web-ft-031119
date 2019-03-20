@@ -40,8 +40,8 @@ class Song
     filename = filename.split(" - ")
     puts filename
     song = self.new
-    song.artist_name = filename[0]
     song.name = filename[1].split(".mp3")[0]
+    song.artist_name = filename[0]
   end
 end
 song = Song.new_from_filename("Thundercat - For Love I Come.mp3")
