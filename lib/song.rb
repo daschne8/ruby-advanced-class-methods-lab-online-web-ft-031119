@@ -45,6 +45,12 @@ class Song
     self.all << song
     song
   end
+  def self.create_from_filename(filename)
+    self.new_from_filename(filename)
+  end
+  def self.destroy_all
+    self.all.clear
+  end
 end
 # song = Song.new_from_filename("Thundercat - For Love I Come.mp3")
 # binding.pry
