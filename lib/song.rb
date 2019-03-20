@@ -42,6 +42,8 @@ class Song
     song = self.new
     song.name = filename[1].split(".mp3")[0]
     song.artist_name = filename[0]
+    self.all << song
+    song
   end
 end
 song = Song.new_from_filename("Thundercat - For Love I Come.mp3")
